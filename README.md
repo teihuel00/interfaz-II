@@ -112,7 +112,7 @@ void draw() {
   //background(0);
   
   // Dibujar círculos almacenados
-  fill(0, 0, 0);
+  fill(255, 255, 255);
   //noStroke();
   stroke(255, 0, 0);
   for (PVector c : circles) {
