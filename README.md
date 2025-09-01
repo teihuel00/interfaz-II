@@ -46,7 +46,7 @@ void loop() {
     digitalWrite(13, LOW);
   }
 }
-```js
+```
 
 ####LED con Potenciómetro
 
@@ -65,7 +65,7 @@ void loop() {
 
 ```js
 
-
+```
 
 ####aldruino_boton-processing
 
@@ -88,7 +88,7 @@ void loop() {
   }
 }
 
-```js
+```
 
 ```js
 import processing.serial.*;
@@ -132,7 +132,7 @@ void draw() {
   }
 }
 
-```js
+```
 
 
 
