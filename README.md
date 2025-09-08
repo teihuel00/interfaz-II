@@ -1,6 +1,6 @@
 # interfaz-II
 
-####hola mundo 
+#### hola mundo
 
 ```js
 void setup() {
@@ -14,7 +14,7 @@ void loop() {
 
 ```
 
-####LED Intermitente 
+#### led intermintente
 
 ```js
 
@@ -36,7 +36,8 @@ void loop() {   // Se repite infinitamente
 }
 ```
 
-####Control por Pulsador
+#### control con pulsador
+
 
 ```js
 void setup() {
@@ -52,7 +53,7 @@ void loop() {
 }
 ```
 
-####LED con Potenciómetro
+#### led con potenciometro
 
 ```js
 
@@ -65,7 +66,7 @@ void loop() {
   analogWrite(9, brillo);               // Ajustar brillo
 }
 ```
-####semaforo
+#### semaforo 
 
 ```js
 // C++ code - Semáforo Autos y Peatones
@@ -177,7 +178,9 @@ void loop() {
   digitalWrite(LED_5, HIGH);  // Rojo peatones encendido
   delay(2000); // 2 segundos
 }
-####aldruino_boton-processing
+
+#### aldriono-boton-processing
+
 
 ```js
 
@@ -244,7 +247,7 @@ void draw() {
 
 ```
 
-####aldruino-boton_potenciometro_processing
+#### aldruino-boton-potenciometro-processing
 
 ```js
 int buttonPin = 2;       // Pin del botón
