@@ -666,7 +666,7 @@ void loop() {
   }
 }
 
-el codigo anterior se modifico con la IA dejandolo asi:
+el codigo anterior se modifico con la IA para que parpaden en loop. si se encienden las pares se apagan las impares y biceversa:
 
 int leds[] = {2, 3, 4, 5}; // Arreglo con los pines de los LEDs
 
@@ -699,7 +699,7 @@ void loop() {
   delay(500); // Espera 0.5 segundos
 }
 
-a este le hice mas modificaciones sin IA. Se agrego un led y de modifico el dilay
+a este le hice mas modificaciones sin IA. Se agrego un led mas y se modifico el dilay
 
 int leds[] = {2, 3, 4, 5, 8}; // Arreglo con los pines de los LEDs
 
@@ -732,7 +732,7 @@ void loop() {
   delay(100); // Espera 0.5 segundos
 }
 
-se hizo un segundo codigo para que las luces enciendan en secuencia
+ademas, se hizo un segundo codigo de la misma forma con el anterior, con ia y modificaciones menores, para que las luces se enciendan en secuencia de izquierda a derecha (desde luz roja (pin 2) a luz blanca (pin 8))
 
 int leds[] = {2, 3, 4, 5, 8}; // Pines de los LEDs
 const int numLeds = 5;     // Número total de LEDs
