@@ -35,8 +35,9 @@ void loop() {   // Se repite infinitamente
   delay(500);             // Esperar 1 segundo
 }
 ```
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/Captura%20de%20pantalla%202025-10-06%20092002.png)
 
-#### control con pulsador
+#### led con pulsador
 
 
 ```js
@@ -52,6 +53,7 @@ void loop() {
   }
 }
 ```
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/Captura%20de%20pantalla%202025-10-06%20091930.png)
 
 #### led con potenciometro
 
@@ -66,6 +68,8 @@ void loop() {
   analogWrite(9, brillo);               // Ajustar brillo
 }
 ```
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/Captura%20de%20pantalla%202025-10-06%20092138.png)
+
 #### semaforo 
 
 ```js
@@ -180,6 +184,7 @@ void loop() {
 }
 
 ```
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/Captura%20de%20pantalla%202025-10-06%20092002.png)
 
 #### aldriono-boton-processing
 
@@ -204,6 +209,7 @@ void loop() {
 }
 
 ```
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/IMG_0235.jpg)
 
 ```js
 import processing.serial.*;
@@ -273,6 +279,7 @@ void loop() {
 }
 
 ```
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/IMG_0240.jpg)
 
 ```js
 import processing.serial.*;
@@ -359,6 +366,7 @@ void loop() {
 }
 
 ```
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/Captura%20de%20pantalla%202025-10-06%20092122.png)
 
 #### for if
 
@@ -386,6 +394,7 @@ void loop() {
 }
 
 ```
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/Captura%20de%20pantalla%202025-10-06%20092027.png)
 
 #### botonera con sonido 
 
@@ -641,6 +650,8 @@ void loop() {
 }
 
 ```
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/Captura%20de%20pantalla%202025-10-06%20092230.png)
+
 #### EVALUACION CIRCUITO
 
 ```js
