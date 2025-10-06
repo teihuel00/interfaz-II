@@ -699,7 +699,69 @@ void loop() {
   delay(500); // Espera 0.5 segundos
 }
 
-a este le hice mas modificaciones sin IA para que quede de la siguiente forma:
+a este le hice mas modificaciones sin IA. Se agrego un led y de modifico el dilay
 
+int leds[] = {2, 3, 4, 5, 8}; // Arreglo con los pines de los LEDs
 
+void setup() {
+  // Se configura cada pin del arreglo como salida
+  for (int i = 0; i < 5; i++) {
+    pinMode(leds[i], OUTPUT);
+  }
+}
+
+void loop() {
+  // Enciende LEDs pares y apaga los impares
+  for (int i = 0; i < 5; i++) {
+    if (i % 2 == 0) { // Si el índice es par (0, 2)
+      digitalWrite(leds[i], HIGH);
+    } else { // Si el índice es impar (1, 3)
+      digitalWrite(leds[i], LOW);
+    }
+  }
+  delay(100); // Espera 0.5 segundos
+
+  // Apaga LEDs pares y enciende los impares
+  for (int i = 0; i < 5; i++) {
+    if (i % 2 == 0) { // Si el índice es par (0, 2)
+      digitalWrite(leds[i], LOW);
+    } else { // Si el índice es impar (1, 3)
+      digitalWrite(leds[i], HIGH);
+    }
+  }
+  delay(100); // Espera 0.5 segundos
+}
+
+se hizo un segundo codigo para que las luces enciendan en secuencia
+
+int leds[] = {2, 3, 4, 5, 8}; // Pines de los LEDs
+const int numLeds = 5;     // Número total de LEDs
+const int tiempo = 50;    // Tiempo de espera en milisegundos (ajusta esto para la velocidad)
+
+void setup() {
+  // Configura todos los pines como salida
+  for (int i = 0; i < numLeds; i++) {
+    pinMode(leds[i], OUTPUT);
+  }
+}
+
+void loop() {
+  // Recorre el arreglo de LEDs
+  for (int i = 0; i < numLeds; i++) {
+    
+    // 1. Enciende el LED actual
+    digitalWrite(leds[i], HIGH);
+    
+    // 2. Espera el tiempo definido (para que se vea encendido)
+    delay(tiempo); 
+    
+    // 3. Apaga el LED actual
+    digitalWrite(leds[i], LOW);
+    
+    // Nota: El bucle 'loop()' hará que esta secuencia se repita
+    // indefinidamente después de que el 'for' llegue al último LED (pin 5)
+  }
+}
+
+```
 
