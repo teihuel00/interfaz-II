@@ -39,7 +39,6 @@ void loop() {   // Se repite infinitamente
 
 #### led con pulsador
 
-
 ```js
 void setup() {
   pinMode(2, INPUT);  // Botón como entrada
@@ -871,6 +870,9 @@ void reproducirSonido() {
 
 ````
 
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/12345.png)
+
+
 #### CODIGO FINAL 
 
 ```js
@@ -1016,3 +1018,16 @@ void loop() {
 }
 
 ````
+
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/11111.jpeg)
+
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/2222.jpeg)
+
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/3333.jpeg)
+
+![](https://github.com/teihuel00/interfaz-II/blob/main/genesis/4444.jpeg)
+
+
+
+
+
